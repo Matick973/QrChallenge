@@ -1,0 +1,50 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  width: 365px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 50px lightgrey;
+  background-color: white;
+  padding: 10px;
+  margin: 50% auto;
+}
+
+.img-container{
+  background: url('../src/image/image-qr-code.png');
+  height: 355px;
+  width: 355px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.txt-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+
+}
+
+.card-title{
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  
+}
+
+.card-text{
+  color:hsl(220, 15%, 55%);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.card-text p {
+  margin-top: 0;
+  margin-bottom: 5%;
+}
